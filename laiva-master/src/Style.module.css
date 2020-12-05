@@ -1,0 +1,74 @@
+.body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    height:auto;
+}
+
+/*mahdolliset asetukset sivulle*/
+.main {
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 25px 0px 35px rgba(0,0,0,0.1),
+    -30px 0px 40px rgba(0,0,0,0.1)
+
+}
+
+/*Pöytä komponentti*/
+.table {
+    border: 1px solid black; 
+
+}
+
+/*Rivi pöydän sisällä*/
+.tr {
+    border: 1px solid black;
+}
+
+/*Solu rivissä*/
+.td { 
+    text-align: center;
+    border: 1px solid black;
+    height:50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 px;
+}
+.td1 { 
+    text-align: center;
+    border: 1px solid black;
+    height:50px;
+    width: 50px;
+    background-color:rgb(235, 95, 118);
+    padding: 0 px;
+}
+
+td:hover{
+    color:white; background-color:yellow
+}
+.td2 {
+    text-align: center;
+    border: 1px solid white;
+    height:50px;
+    width: 100px;
+    background-color:rgb(0, 0, 0);
+    padding: 0 px;
+}
+.td3 {
+    text-align: center;
+    border: 1px solid white;
+    height:50px;
+    width: 150px;
+    background-color:rgb(0, 0, 0);
+    padding: 0 px;
+}
+.td4 {
+    text-align: center;
+    border: 1px solid white;
+    height:50px;
+    width: 200px;
+    background-color:rgb(0, 0, 0);
+    padding: 0 px;
+}
+
+
